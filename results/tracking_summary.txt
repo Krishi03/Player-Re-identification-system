@@ -1,0 +1,11 @@
+Player Re-Identification Summary Report
+==================================================
+
+Total Frames Processed: 375
+Total Players Detected: 0
+
+Player Statistics:
+--------------------
+
+Detailed frame-by-frame results:
+------------------------------
