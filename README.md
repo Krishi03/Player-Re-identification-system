@@ -68,18 +68,3 @@ python main.py
 ### Output
 - Annotated video: `data/output/tracked_output.mp4` (or as configured)
 - Results: `results/tracking_results.pkl` and `results/tracking_summary.txt`
-
-## Troubleshooting
-- **Missing model/video:** Ensure your model and video are in the correct folders and match the filenames in `src/config.py`.
-- **Dependency errors:** Double-check your Python version and that all packages in `requirements.txt` are installed.
-- **Incorrect tracking:** Try adjusting `SIMILARITY_THRESHOLD` and `MAX_FRAMES_MISSING` in `src/config.py` for your scenario.
-
-## Extending/Customizing
-- You can improve re-ID by integrating deep feature extractors or trackers like DeepSORT.
-- Feature extraction and matching logic can be customized in `src/player_reidentifier.py`.
-
-## License
-MIT (or specify your license)
-
-## Contact
-For questions or contributions, please open an issue or pull request. 
